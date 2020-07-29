@@ -2597,3 +2597,15 @@ footer .copyright span:last-child::after {
 }
 
 /*# sourceMappingURL=main.css.map */
+
+@media screen and (max-width: 400px) {
+	    .linebreak-span:last-of-type {
+		display: block;
+	    }
+}
+
+@media screen and (max-width: 300px) {
+	.linebreak-span:nth-of-type(2) {
+		display: block;
+	}
+}
